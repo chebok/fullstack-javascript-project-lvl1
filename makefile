@@ -4,3 +4,5 @@ brain-games:
 		node bin/brain-games.js # запуск игры
 publish:
 		npm publish --dry-run # публикация
+lint:
+		npx eslint # eslinting
