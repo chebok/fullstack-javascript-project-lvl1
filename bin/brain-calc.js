@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /* eslint-disable import/extensions */
 /* eslint-disable no-console */
-import isEven from '../games/isEven.js';
+import calc from '../games/calc.js';
 
-console.log('brain-even');
+console.log('brain-calc');
 console.log('Welcome to the Brain Games!');
-isEven();
+calc();
