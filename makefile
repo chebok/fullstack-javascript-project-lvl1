@@ -5,7 +5,9 @@ brain-games:
 brain-even:
 		node bin/brain-even.js # запуск Проверка на четность
 brain-calc:
-		node bin/brain-calc.js # запуск Калькулятора		
+		node bin/brain-calc.js # запуск Калькулятора
+brain-gcd:
+		node bin/brain-gcd.js # запуск Наибольший Общий Делитель НОД				
 publish:
 		npm publish --dry-run # публикация
 lint:
