@@ -6,7 +6,7 @@ import randomExpression from '../src/randomExpression.js';
 
 const calc = () => {
   const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello ${userName}!\nAnswer "yes" if the number is even, otherwise answer "no".`);
+  console.log(`Hello ${userName}!\nWhat is the result of the expression?`);
   let count = 0;
   while (count < 3) {
     const createdExpression = randomExpression();
