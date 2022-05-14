@@ -6,7 +6,4 @@ extends:
 parserOptions:
   ecmaVersion: latest
   sourceType: module
-rules: {
-  "import/extensions": "off",
-  "no-console": "off"
-}
+rules: {}
