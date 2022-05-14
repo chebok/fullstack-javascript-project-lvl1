@@ -9,7 +9,9 @@ brain-calc:
 brain-gcd:
 		node bin/brain-gcd.js # запуск Наибольший Общий Делитель НОД
 brain-progression:
-		node bin/brain-progression.js # запуск Прогрессия с пропуском						
+		node bin/brain-progression.js # запуск Прогрессия с пропуском
+brain-prime:
+		node bin/brain-prime.js # запуск Простое число						
 publish:
 		npm publish --dry-run # публикация
 lint:
