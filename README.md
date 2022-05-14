@@ -1,3 +1,7 @@
+Проект Brain-games состоит из пяти консольных игр. 
+Установка через make publish. Далее npm link.
+Ниже в asciinema указаны примеры запуска и работы конкретно каждой игры.
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/chebok/fullstack-javascript-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/chebok/fullstack-javascript-project-lvl1/actions)
 ### Codeclimate:
