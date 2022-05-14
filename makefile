@@ -7,7 +7,9 @@ brain-even:
 brain-calc:
 		node bin/brain-calc.js # запуск Калькулятора
 brain-gcd:
-		node bin/brain-gcd.js # запуск Наибольший Общий Делитель НОД				
+		node bin/brain-gcd.js # запуск Наибольший Общий Делитель НОД
+brain-progression:
+		node bin/brain-progression.js # запуск Прогрессия с пропуском						
 publish:
 		npm publish --dry-run # публикация
 lint:
