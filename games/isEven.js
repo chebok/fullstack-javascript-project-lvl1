@@ -3,7 +3,7 @@ import readlineSync from 'readline-sync';
 
 const isEven = () => {
   const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello ${userName}!\nAnswer "yes" if the number is even, otherwise answer "no".`);
+  console.log(`Hello, ${userName}!\nAnswer "yes" if the number is even, otherwise answer "no".`);
   let count = 0;
   while (count < 3) {
     const createdExpression = Math.ceil(Math.random() * 100);

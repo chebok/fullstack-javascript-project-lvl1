@@ -5,7 +5,7 @@ import isPrime from '../src/isPrime.js';
 
 const prime = () => {
   const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello ${userName}!\nAnswer "yes" if given number is prime. Otherwise answer "no".`);
+  console.log(`Hello, ${userName}!\nAnswer "yes" if given number is prime. Otherwise answer "no".`);
   let count = 0;
   while (count < 3) {
     const createdExpression = Math.ceil(Math.random() * 100) + 1;

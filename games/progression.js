@@ -6,7 +6,7 @@ import randomProgression from '../src/randomProgression.js';
 
 const progression = () => {
   const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello ${userName}!\nWhat number is missing in the progression?`);
+  console.log(`Hello, ${userName}!\nWhat number is missing in the progression?`);
   let count = 0;
   while (count < 3) {
     const createdExpression = randomProgression();

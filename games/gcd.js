@@ -5,7 +5,7 @@ import biggestDivisor from '../src/biggestDivisor.js';
 
 const gcd = () => {
   const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello ${userName}!\nFind the greatest common divisor of given numbers.`);
+  console.log(`Hello, ${userName}!\nFind the greatest common divisor of given numbers.`);
   let count = 0;
   while (count < 3) {
     const num1 = Math.ceil(Math.random() * 100) + 2;
