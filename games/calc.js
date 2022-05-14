@@ -14,7 +14,7 @@ const calc = () => {
     console.log(`Question: ${createdExpression}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer !== programAnswer) {
-      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${programAnswer}.\nLet's try again, ${userName}`);
+      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${programAnswer}.\nLet's try again, ${userName}!`);
       break;
     } console.log('Correct!');
     count += 1;
